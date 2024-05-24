@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+}
+.container{
+    background-color: blue;
+    color: white;
+}
+.nav{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav li{
+    padding: 10px;
+}
+.nav li:hover{
+    color: red;
+    text-decoration: underline;
+}
+.post_container{
+    padding: 20px 20px;
+    
+}
+.post h2{
+    text-align: center;
+}
+.post_card{
+    box-shadow: 1px 1px 10px black;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.post_card img{
+    width: 300px;
+}
+.post_card p {
+    padding: 10px;
+}
+.post_list{
+    display: flex;
+}
